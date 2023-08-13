@@ -1,18 +1,20 @@
 #include "shell.h"
 
-unsigned len_int(int n);
+int len_int(int n);
 char *_itoa(int n);
 
 /**
- * digitlen - Counts the length of a digit
+ * len_int - Counts the length of a digit
  * @n: The number to count
  *
  * Return: Returns (len) ie the digit length
  */
-unsigned len_int(int n)
+int len_int(int n)
 {
-	unsigned int num;
-	unsigned int len = 0;
+	int num;
+	int len;
+
+	len = 0;
 
 	if (n < 0)
 	{
@@ -63,7 +65,7 @@ char *_itoa(int n)
 
 	while (num > 0)
 	{
-		str[len]= (num % 10) + '0';
+		str[len] = (num % 10) + '0';
 		num /= 10;
 		len--;
 	}

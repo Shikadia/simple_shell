@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * path_loctor - Locates a command in the PATH
+ * path_locator - Locates a command in the PATH
  * @cmd: The command to locate
  *
  * Return: On SUCCESS, returns the full path of the command and NULL on FAILURE

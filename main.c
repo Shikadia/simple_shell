@@ -1,5 +1,6 @@
 #include "shell.h"
 
+int main(int ac, char **av);
 /**
  * main - Runs a simple UNIX command interpreter
  * @ac: The number of arguments from the command line

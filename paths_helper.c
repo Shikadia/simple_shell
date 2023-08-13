@@ -3,7 +3,8 @@
 lnkd_lst *retrive_path(char *path);
 char *path_populator(char *path);
 /**
- * path_populator - Copies and replaces leading colons (:) with current directory
+ * path_populator - Copies and replaces leading colons
+*  (:) with current directory
  * @path: Colon-separated list of directories
  *
  * Return: returns a duplicate path

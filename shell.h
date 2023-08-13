@@ -102,7 +102,7 @@ lnkd_lst *add_endnode(lnkd_lst **head, char *path);
 void free_list(lnkd_lst *head);
 ssize_t newLen(char *line);
 void logical_ops(char *line, ssize_t *new_len);
-unsigned len_int(int n);
+int len_int(int n);
 int run_commands(char *path, int *ret);
 void handle_sig(int sig __attribute__((unused)));
 char *path_populator(char *cmd);

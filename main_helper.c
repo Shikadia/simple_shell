@@ -4,7 +4,7 @@ void handle_sig(int sig __attribute__((unused)));
 int execute(char **args, char **first);
 
 /**
- * check_sig - Verifies if Ctrl+C key combination is pressed
+ * handle_sig - Verifies if Ctrl+C key combination is pressed
  *	       and prints a new prompt upon a signal
  * @sig: The signal
  */

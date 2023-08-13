@@ -4,7 +4,7 @@ int file_open_error(char *path);
 int run_commands(char *path, int *ret);
 
 /**
- * fileopen_error - Prints assigned error if file can't be opened or accessed
+ * file_open_error - Prints assigned error if file can't be opened or accessed
  * @path: Path to the file
  *
  * Return: Returns (127)

@@ -33,9 +33,9 @@ int (*checkbuiltin(char *cmd))(char **args, char **arg0)
 }
 
 /**
- * shellexit - Terminates program execution of the shell
+ * exit_shell - Terminates program execution of the shell
  * @args: Array of arguments containing the exit value
- * @arg0: A double pointer to the start of the arguments
+ * @first: A double pointer to the start of the arguments
  *
  * Return: exits with the given status value
  *  if there is no argument, returns (-3)
@@ -78,7 +78,7 @@ int exit_shell(char **args, char **first)
 /**
  * _cd - Changes the current directory of the shell
  * @args: An array of arguments
- * @arg0: A double pointer to the beginning of args
+ * @first: A double pointer to the beginning of args
  *
  * Return: returns when successful, -2
  * if not a directory nd -1 if error
